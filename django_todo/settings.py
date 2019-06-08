@@ -27,7 +27,8 @@ SECRET_KEY = '14x9k(#8zzbz=zlos1)ef16h0z404n8c(v%@%irfzq8o(_fj_w'
 DEBUG = True
 
 ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'),
-                os.environ.get('HOSTNAME')]
+                os.environ.get('HOSTNAME'), 
+                'todo-django-tester.herokuapp.com']
 
 
 # Application definition
